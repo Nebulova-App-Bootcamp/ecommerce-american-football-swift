@@ -12,6 +12,7 @@ struct ecommerce_american_football_swiftApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Shop())
         }
     }
 }

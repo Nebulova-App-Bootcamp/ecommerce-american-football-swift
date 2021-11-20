@@ -21,7 +21,6 @@ let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray3)
 
 //LAYOUT
-
 let columnSpacing: CGFloat = 12
 let rowSpacing: CGFloat = 12
 var gridLayout: [GridItem] {
@@ -29,7 +28,6 @@ var gridLayout: [GridItem] {
 }
 
 //UX
-
 let feedback = UIImpactFeedbackGenerator(style: .medium)
 
 //API
